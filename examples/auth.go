@@ -8,7 +8,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"weibogo"
+
+	"github.com/imttx/weibogo"
 )
 
 var (

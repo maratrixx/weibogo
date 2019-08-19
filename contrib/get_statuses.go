@@ -4,7 +4,8 @@ import (
 	"math"
 	"sort"
 	"time"
-	"weibogo"
+
+	"github.com/imttx/weibogo"
 )
 
 const (

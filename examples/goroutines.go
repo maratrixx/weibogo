@@ -5,8 +5,9 @@ import (
 	"flag"
 	"fmt"
 	"time"
-	"weibogo"
-	"weibogo/contrib"
+
+	"github.com/imttx/weibogo"
+	"github.com/imttx/weibogo/contrib"
 )
 
 var (

@@ -94,7 +94,6 @@ func (weibo *Weibo) sendGetHttpRequest(uri string, token string, params Params, 
 		}
 		return weiboErr
 	}
-	return nil
 }
 
 // 向微博API服务器发送POST请求
@@ -169,5 +168,4 @@ func (weibo *Weibo) sendPostHttpRequest(uri string, token string, params Params,
 		}
 		return weiboErr
 	}
-	return nil
 }

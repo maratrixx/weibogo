@@ -9,7 +9,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"time"
-	"weibogo"
+
+	"github.com/imttx/weibogo"
 )
 
 var (
