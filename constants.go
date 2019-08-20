@@ -4,6 +4,6 @@ package weibogo
 const (
 	ApiDomain      string = "https://api.weibo.com"
 	ApiVersion     string = "2"
-	UploadAPIName  string = "statuses/upload"
+	UploadAPIName  string = "statuses/share"
 	ApiNamePostfix string = ".json"
 )
