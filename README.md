@@ -6,7 +6,7 @@ weibogo
 # 安装/更新
 
 ```
-go get -u github.com/imttx/weibogo
+go get -u github.com/maratrixx/weibogo
 ```
 
 # 使用
@@ -19,7 +19,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/imttx/weibogo"
+	"github.com/maratrixx/weibogo"
 )
 
 var (
@@ -47,6 +47,6 @@ func main() {
 }
 ```
 
-用命令行参数-access_token传入访问令牌，令牌可以通过<a href="http://open.weibo.com/tools/console">API测试工具</a>或者<a href="https://github.com/imttx/weibogo/blob/master/examples/auth.go">weibogo.Authenticator</a>得到。
+用命令行参数-access_token传入访问令牌，令牌可以通过<a href="http://open.weibo.com/tools/console">API测试工具</a>或者<a href="https://github.com/maratrixx/weibogo/blob/master/examples/auth.go">weibogo.Authenticator</a>得到。
 
-更多API调用的例子见 <a href="https://github.com/imttx/weibogo/blob/master/examples/weibo.go">examples/weibo.go</a>。
+更多API调用的例子见 <a href="https://github.com/maratrixx/weibogo/blob/master/examples/weibo.go">examples/weibo.go</a>。

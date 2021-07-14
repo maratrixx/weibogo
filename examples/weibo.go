@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/imttx/weibogo"
+	"github.com/maratrixx/weibogo"
 )
 
 var (
